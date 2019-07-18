@@ -1,12 +1,13 @@
 Metadata-Version: 2.1
 Name: pyid
-Version: 0.0.1
+Version: 0.0.2
 Summary:  ID attributes for python objects
 Home-page: https://github.com/cyclecycle/pyid
 Author: Nicholas Morley
 Author-email: nick.morley111@gmail.com
 License: UNKNOWN
 Description: # PyID
+        [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
         
         Turn any python object into an exactly equivalent object with an `id` attribute.
         
@@ -40,7 +41,7 @@ Description: # PyID
         
         ## Motivation
         
-        When referencing related objects, we use unique IDs. In python, we might handle this pattern with a dictionary mapping IDs to objects, or use an item's position in a list as its ID. Either case requires we create variables separate from the object to represent those IDs, and that each time we iterate we explicitly include the ID by iterating with the ID dict or the enumarate function for lists. I built this to test the idea that having an ID attribute is easier and cleaner.
+        When referencing related objects, we use unique IDs. In python, we might handle this pattern with a dictionary mapping IDs to objects, or use an item's position in a list as its ID. Either case requires we create variables separate from the object to represent those IDs, and that each time we iterate we explicitly include the ID by iterating with the ID dict or the enumerate function for lists. I built this to test the idea that having an ID attribute is easier and cleaner.
         
         ## How it works
         

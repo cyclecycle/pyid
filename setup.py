@@ -5,7 +5,7 @@ with open("README.md") as fh:
 
 setuptools.setup(
     name="pyid",
-    version="0.0.1",
+    version="0.0.3",
     author="Nicholas Morley",
     author_email="nick.morley111@gmail.com",
     description=" ID attributes for python objects",

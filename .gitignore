@@ -1,6 +1,12 @@
 env
 __pycache__
 .pytest_cache
-build
-dist
-pyid.egg-info
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
