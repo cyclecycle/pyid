@@ -1,4 +1,5 @@
 # PyID
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
 Turn any python object into an exactly equivalent object with an `id` attribute.
 
