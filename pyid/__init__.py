@@ -1,1 +1,1 @@
-from pyid import pyid
+from pyid.pyid import *
