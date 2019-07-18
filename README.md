@@ -32,7 +32,7 @@ pip install pyid
 
 ## Motivation
 
-When referencing related data structures, we use unique IDs. In python, we might handle this pattern with a dictionary mapping IDs to objects, or use an item's position in a list as its ID. Either case requires we create variables separate from the object to represent the ID/s, and that each time we iterate we explicitly include the ID somehow. For example, iterating with the ID dict or the enumarate function. I built this to test the idea that having an ID available as an attribute is easier and cleaner.
+When referencing related objects, we use unique IDs. In python, we might handle this pattern with a dictionary mapping IDs to objects, or use an item's position in a list as its ID. Either case requires we create variables separate from the object to represent those IDs, and that each time we iterate we explicitly include the ID by iterating with the ID dict or the enumarate function for lists. I built this to test the idea that having an ID attribute is easier and cleaner.
 
 ## How it works
 
